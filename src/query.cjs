@@ -41,6 +41,7 @@ const CharacterTag = {
     HARUNA_GYM: {user: "haruna_gym", id: 20030},
     IZUMI: {user: "izumi", id: 10009},
     IZUMI_SWIMSUIT: {user: "izumi_swimsuit", id: 16006},
+    IZUMI_NEWYEAR: {user: "izumi_newyear", id: 20043},
     AKARI: {user: "akari", id: 13002},
     AKARI_NEWYEAR: {user: "akari_newyear", id: 20034},
     // Disciplinary Committee 风纪委员会
@@ -167,8 +168,8 @@ const CharacterTag = {
     KOTORI_CHEERLEADER: {user: "kotori_cheerleader", id: 10076},
     // Gym Training Department 体育锻炼部
     SUMIRE: {user: "sumire", id: 10012},
-    //SUMIRE_PART_TIMER: {user: "sumire_part_timer", id: }, // IMPL Implemented on 2025/03/26
-    //REI: {user: "rei", id: }, // IMPL Implemented on 2025/03/26
+    SUMIRE_PART_TIMER: {user: "sumire_part_timer", id: 20044}, // IMPL Implemented on 2025/03/26
+    REI: {user: "rei", id: 10115}, // IMPL Implemented on 2025/03/26
     // Game Development Department 游戏开发部
     MIDORI: {user: "midori", id: 10016},
     MIDORI_MAID: {user: "midori_maid", id: 10095},
@@ -191,6 +192,7 @@ const CharacterTag = {
     SHIZUKO: {user: "shizuko", id: 23006},
     SHIZUKO_SWIMSUIT: {user: "shizuko_swimsuit", id: 26008},
     PINA: {user: "pina", id: 16004},
+    PINA_GUIDE: {user: "pina_guide", id: 20045}, // IMPL Implemented on 2025/05/14
     UMIKA: {user: "umika", id: 10090},
     // Etiquette Training Society 修行部
     TSUBAKI: {user: "tsubaki", id: 13009},
@@ -255,7 +257,7 @@ const CharacterTag = {
     ATSUKO_SWIMSUIT: {user: "atsuko_swimsuit", id: 26013},
     SAORI: {user: "saori", id: 10048},
     SAORI_SWIMSUIT: {user: "saori_swimsuit", id: 10101},
-    //SAORI_DRESS: {user: "saori_dress", id: }, // IMPL Implemented on 2025/04/09
+    SAORI_DRESS: {user: "saori_dress", id: 10116}, // IMPL Implemented on 2025/04/09
     HIYORI: {user: "hiyori", id: 20017},
     HIYORI_SWIMSUIT: {user: "hiyori_swimsuit", id: 10102},
     MISAKI: {user: "misaki", id: 10041},
@@ -271,10 +273,10 @@ const CharacterTag = {
     MOE_SWIMSUIT: {user: "moe_swimsuit", id: 10097},
     // -------------------- Highlander ---------------------- 海兰德
     // CCC 中央管制中心
-    //HIKARI: {user: "hikari", id: }, // IMPL implemented on 2025/04/22
-    //NOZOMI: {user: "nozomi", id: }, // IMPL implemented on 2025/04/22
+    HIKARI: {user: "hikari", id: 10117}, // IMPL implemented on 2025/04/22
+    NOZOMI: {user: "nozomi", id: 10118}, // IMPL implemented on 2025/04/22
     // 货物输送管理部
-    //AOBA: {user: "aoba", id: }, // IMPL implemented on 2025/04/22
+    AOBA: {user: "aoba", id: 16017}, // IMPL implemented on 2025/04/22
     // ------------ Somewhere Outside Kivotos ------------ 联动角色
     // VOCALOID V家
     MIKU: {user: "miku", id: 20007},

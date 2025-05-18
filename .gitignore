@@ -1,3 +1,6 @@
 .idea/
 node_modules/
 /git.txt
+/src/students.json
+/src/*.py
+/src/id.txt
