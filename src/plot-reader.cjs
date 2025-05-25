@@ -35,7 +35,6 @@ class PlotReader {
             await this.localize.init();
             await $.getJSON(this.path, (data) => {
                 $.each(data, (key, info) => {
-                    console.log(key, info);
                     if (key === 'custom') {
                         for (let i in info) {
                             this.remoteCharacters.set(info[i]['CharacterId'], info[i]);
@@ -78,7 +77,6 @@ class PlotReader {
     }
 
     play(entry) {
-        console.log(this.path, this.options);
         this.load().then(async () => {
             if (entry >= this.entryPoint.length) {
                 throw new Error(`Requesting for entrypoint #${entry} out of bound [0,${this.entryPoint.length - 1}]!`);
@@ -273,7 +271,6 @@ class PlotReader {
     }
 
     cleanup(GID, oBID, nBID) {
-        console.log(oBID, nBID);
         if (oBID === nBID) return false;
         if (oBID === -1) return true;
         if (!this.groups.get(GID)[0]['unsure'] && this.mappings.get(oBID)['NextGroupId'] === this.mappings.get(nBID)['NextGroupId']) return false;

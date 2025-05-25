@@ -290,7 +290,6 @@ function queryByName(name) {
     for (let i in CharacterTag) {
         if (CharacterTag[i]['user'].toLowerCase() === name.toLowerCase() || CharacterTag[i]['id'] === name) {
             let path = `./assets/${CharacterTag[i]['id']}/${CharacterTag[i]['id']}.json`;
-            console.log(`Found: ${CharacterTag[i]['id']} from Key: ${name}`);
             return path;
         }
     }
@@ -299,6 +298,4 @@ function queryByName(name) {
 
 export {
     queryByName
-}
-export default class Query {
 }

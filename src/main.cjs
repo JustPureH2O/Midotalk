@@ -9,6 +9,18 @@ let options = {
     REMOTE_FILE: null,
 }
 
+let ascii_art = 'Powered by\n' +
+    '                   __            __              ___    __         \n' +
+    ' /\'\\_/`\\   __     /\\ \\          /\\ \\__          /\\_ \\  /\\ \\        \n' +
+    '/\\      \\ /\\_\\    \\_\\ \\     ___ \\ \\ ,_\\     __  \\//\\ \\ \\ \\ \\/\'\\    \n' +
+    '\\ \\ \\__\\ \\\\/\\ \\   /\'_` \\   / __`\\\\ \\ \\/   /\'__`\\  \\ \\ \\ \\ \\ , <    \n' +
+    ' \\ \\ \\_/\\ \\\\ \\ \\ /\\ \\L\\ \\ /\\ \\L\\ \\\\ \\ \\_ /\\ \\L\\.\\_ \\_\\ \\_\\ \\ \\\\`\\  \n' +
+    '  \\ \\_\\\\ \\_\\\\ \\_\\\\ \\___,_\\\\ \\____/ \\ \\__\\\\ \\__/.\\_\\/\\____\\\\ \\_\\ \\_\\\n' +
+    '   \\/_/ \\/_/ \\/_/ \\/__,_ / \\/___/   \\/__/ \\/__/\\/_/\\/____/ \\/_/\\/_/\n' +
+    '                                                                   \n' +
+    'by JustPureH2O. COMMERCIAL DERIVATION IS PROHIBITED!\nThis player is open-source at https://github.com/JustPureH2O/Midotalk';
+console.log(ascii_art);
+
 const ARGS = new URLSearchParams(window.location.search);
 let name = 'kisaki';
 if (ARGS.get('name') !== null) name = ARGS.get('name');
